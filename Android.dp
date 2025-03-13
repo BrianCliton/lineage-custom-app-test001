@@ -1,0 +1,8 @@
+android_app {
+    name: "test001",               // APK 名称
+    srcs: ["src/**/*.java"],       // 源码路径
+    manifest: "AndroidManifest.xml",  // 指定 Manifest 文件
+    resource_dirs: ["res"],        // 资源文件
+    platform_apis: true,           // 允许使用系统 API
+    certificate: "platform",       // 使用系统签名
+}
